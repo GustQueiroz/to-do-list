@@ -1,0 +1,46 @@
+body {
+  background-color: rgb(192, 205, 205);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tasks-container {
+  background-color: rgb(186, 187, 187);
+  margin-top: 50px;
+  width: 500px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+.tasks-header-container {
+  width: 500px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 3px solid black;
+}
+.tasks-header {
+  color: #2e2e2e;
+}
+.add-tasks-input {
+  width: 220px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.add-tasks-button {
+  width: 130px;
+  height: 38px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  border: 1px solid black;
+}
+.add-tasks-button:hover {
+  background-color: rgb(219, 219, 219);
+  border: 2px solid black;
+}
