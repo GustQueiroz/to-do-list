@@ -19,7 +19,9 @@ function showTasks() {
   let values = JSON.parse(localStorage.getItem(localStorageName) || "[]");
   let list = document.getElementById("tasks-list");
   list.innerHTML = "";
-  for (let i = 0; i < values.length; i++) {
-    list.innerHTML = `<li>${values[i]["task"]}</li>`;
+  for (let i = 0; i <= 10 && i < values.length; i++) {
+    list.innerHTML += `<li><h1 class="task-name">${values[i]["task"]}<h1></li>`;
   }
 }
+
+showTasks();

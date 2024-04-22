@@ -11,8 +11,7 @@ body {
   height: 800px;
   display: flex;
   flex-direction: column;
-
-  border: 3px solid black;
+  border: 5px solid black;
   border-radius: 10px;
 }
 .tasks-header-container {
@@ -45,19 +44,33 @@ body {
   background-color: rgb(219, 219, 219);
   border: 2px solid black;
 }
+.content-container {
+  width: 500px;
+  height: 680px;
+  padding: 0;
+  margin: 0;
+  gap: 0;
+}
 .tasks-list {
+  width: 500px;
+  height: 680px;
   display: flex;
   flex-direction: column;
   padding: 0;
+  margin: 0;
+  gap: 0;
 }
 .tasks-list li {
   list-style-type: none;
-  font-size: 20px;
-  font-weight: 600;
   width: 500px;
-  height: 100px;
+  height: 60px;
   border-bottom: 2px solid black;
   align-items: center;
   display: flex;
   justify-content: space-between;
+}
+.task-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
 }
