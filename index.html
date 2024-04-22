@@ -18,12 +18,15 @@
     <div class="tasks-container">
       <div class="tasks-header-container">
         <input class="add-tasks-input" id="input-add-task" placeholder="Digite sua tarefa"></input>
-        <button class="add-tasks-button" id="btn-add-task">Adicionar Tarefa</button>
+        <button onClick="createTask()" class="add-tasks-button" id="btn-add-task">Adicionar Tarefa</button>
       </div>
       <div class="content-container">
-        <ul></ul>
+        <ul class="tasks-list" id="tasks-list">
+        </ul>
       </div>
     </div>
+
     <script src="script.js"></script>
+
   </body>
 </html>
